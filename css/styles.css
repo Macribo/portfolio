@@ -318,6 +318,3 @@ button:focus,
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-body {
-  behavior: url("csshover3.htc");
-}
