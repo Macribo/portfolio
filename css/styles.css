@@ -318,3 +318,7 @@ button:focus,
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+.grid__item{
+  justify-content: center;
+  display: grid;
+}
