@@ -5,44 +5,69 @@ Secondary Color (Orange): #e0b354;
 Text Color (Dark Gray): #2b2b2b;
 */
 :root {
-  --primary-color: #3a8f24;
-  --secondary-color: #51860c;
+  --primary-color: #2dad0d;
+  --secondary-color: #742488;
   --text-color: #000000;
-  --h1-font-size: 30px;
-  --h2-font-size: 24px;
-  --h3-font-size: 24px;
+  --h1-font-size: 2.5em;
+  --h2-font-size: 2em;
+  --h3-font-size: 1.5em;
   --margin: 10px;
   --padding: 10px;
   --font-weight: 400;
   --h-font-weight: 700;
-  --font-size: 16px;
+  --font-size: 1.2em;
   --opacity: 0.8;
   --line-height: 1.6;
  
 }
+
+
 body{ font-family: Arial, Helvetica, sans-serif;}
 .table {border:4px solid rgba(77, 18, 18, 0.5);
 width:100%;
 justify-content: center;}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
   font-weight: var(--font-weight);
   font-size: var(--font-size);
   line-height: var(--line-height);
 }
 
+
+
+#banba{
+  background-color:black;
+}
+#banba-vid{
+  justify-content: center;
+  position:relative;
+  z-index: 2;
+  width:100%;
+  margin-top:-43%;
+}
+a   {
+  color:orange;
+}
+#headline{margin-left:25%}
 h1 {
   font-size: var(--h1-font-size);
   font-weight: var(--h-font-weight);
 }
-
+.item-overlay{ 
+  /* border:4px solid red; */
+z-index: 10;
+position:relative;
+color:aliceblue;
+}
 h2 {
   font-size: var(--h2-font-size);
   font-weight: var(--h-font-weight);
+  position:relative;
+  z-index: 4;
 }
 
 h3 {
@@ -107,6 +132,7 @@ justify-content: center
 
 
 }
+
 
 /* Styling Header Navigation */
 .navigation-list {
@@ -244,15 +270,15 @@ button:focus,
 
 @keyframes color-change {
   0% {
-    fill: #edc655;
+    fill: #71e017;
   }
 
-  50% {
-    fill: #fcffad;
+  90% {
+    fill: #d308c8;
   }
 
   100% {
-    fill: #f76414;
+    fill: #e284ee;
   }
 }
 
@@ -264,14 +290,6 @@ button:focus,
   to {
     transform: translate(200px, 50px);
   }
-}
-
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
 }
 
 @keyframes cloud-move-reverse {
@@ -286,4 +304,8 @@ button:focus,
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+body {
+  behavior: url("csshover3.htc");
 }
