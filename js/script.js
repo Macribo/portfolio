@@ -14,6 +14,23 @@ $(document).ready(function () {
 		console.log('out')
 		$('#banba-vid').attr('src', './vids/banba.mp4')
 	});
+
+
+	$(".merch").mouseover(function () {
+		// alert();
+		console.log('in')
+		$('#merch-poster').fadeIn()
+	});
+
+
+
+	$(".merch").mouseleave(function () {
+		console.log('out')
+		$('#merch-poster').fadeOut()
+
+	});
+
+
 	$(".geaga").mouseover(function () {
 		console.log('in')
 		// $('#geaga').attr('src', './img/countZero2.png')

@@ -37,11 +37,21 @@ body {
   font-size: var(--font-size);
   line-height: var(--line-height);
 }
+#merch-poster{
+  height:206px;
+  z-index: 206;
+  width:411px;
+  /* background-image: url('../img/merch.png'); */
+  position: fixed;
+}
 
-
-
+#merchandise{
+  /* background-image:url('../img/merch.png');` */
+}
 #banba{
+
   background-image:url('../img/banba-poster.png');
+
 }
 #banba-vid, #collider-vid{
   justify-content: center;
