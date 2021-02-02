@@ -18,15 +18,15 @@ $(document).ready(function () {
 
 	$(".merch").mouseover(function () {
 		// alert();
-		console.log('in')
-		$('#merch-poster').fadeIn()
+		// console.log('in')
+		// $('#merch-poster').fadeIn()
 	});
 
 
 
 	$(".merch").mouseleave(function () {
-		console.log('out')
-		$('#merch-poster').fadeOut()
+		// console.log('out')
+		// $('#merch-poster').fadeOut()
 
 	});
 
@@ -40,7 +40,7 @@ $(document).ready(function () {
 
 	$(".geaga").mouseleave(function () {
 		console.log('out')
-		$('#geaga').attr('src', './img/countZero.png')
+		// $('#geaga').attr('src', './img/countZero.png')
 	});
 
 
