@@ -44,6 +44,9 @@ body {
   width:100px;
   border-radius: 50%;
 }
+
+#siopa{border: 4px solid blue;
+background-image:url(../img/merch.png)}
 #merch-poster{
   height:206px;
   z-index: 206;
@@ -150,6 +153,9 @@ justify-content: center
 .profile {
   max-width: 700px;
   margin: 0 auto;
+  text-align: center;
+  display: grid;
+  justify-content: center;
 }
 .hello-img{
   margin: 0 auto;
@@ -171,6 +177,8 @@ justify-content: center
 /* Styling Header Navigation */
 .navigation-list {
   list-style-type: none;
+  position:fixed:
+  left:0%;
 }
 
 .navigation-list li {
