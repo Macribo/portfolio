@@ -5,14 +5,14 @@ $(document).ready(function () {
 	$("#banba").mouseover(function () {
 		// alert();
 		console.log('in')
-		$('#banba-vid').attr('src', './vids/banba2.mp4')
+		$('#banba-vid').attr('src', './img/banba_poster.png')
 	});
 
 
 
 	$("#banba").mouseleave(function () {
 		console.log('out')
-		$('#banba-vid').attr('src', './vids/banba.mp4')
+		$('#banba-vid').attr('src', 'src', './img/banba_poster.png')
 	});
 
 
