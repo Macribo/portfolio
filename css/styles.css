@@ -44,9 +44,14 @@ body {
   width:100px;
   border-radius: 50%;
 }
-#blog{
-  margin-top: 30px;
-  border: 4px solid blue;
+#blog{position:relative;
+  padding-top: 260px;
+  left:10%;
+  width: 70%;
+  /* border: 4px solid blue; */
+}
+iframe{
+  
 }
 #siopa{
   border: 4px solid blue;
@@ -128,6 +133,7 @@ h3 {
   display: flex;
   width: 100%;
   padding: 20px;
+background-color: white;
   /* border-bottom: 0.5px solid lightgray; */
 }
 
