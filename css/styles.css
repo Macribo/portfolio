@@ -44,8 +44,12 @@ body {
   width:100px;
   border-radius: 50%;
 }
-
-#siopa{border: 4px solid blue;
+#blog{
+  margin-top: 30px;
+  border: 4px solid blue;
+}
+#siopa{
+  border: 4px solid blue;
 background-image:url(../img/merch.png)}
 #merch-poster{
   height:206px;
