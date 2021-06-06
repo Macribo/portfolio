@@ -1,1 +1,7 @@
-console.log('hello from work.js')
+
+$(document).ready(function () {
+
+	$( ".banba-overlay" ).mouseover(function() {
+
+
+});

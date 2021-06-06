@@ -107,14 +107,14 @@ h2 {
   position:relative;
   z-index: 4;
 }
-.banba-overlay_A{
+.banba-overlay{
   position:absolute;
   height:300px;
   width:600px;
   display:grid;
   justify-content: center;
   z-index: 1000;
-  border:4px solid green
+  /* border:4px solid green */
   ;
 }
 #banba{
