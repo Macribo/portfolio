@@ -72,17 +72,17 @@ background-image:url(../img/merch.png)}
   /* background-image:url('../img/banba-poster.png'); */
 
 }
-#banba-vid, #collider-vid{
-  justify-content: center;
+#banba-vid{
+  /* justify-content: center; */
   position:relative;
-  z-index: 2;
-  width:411px;
-  height:206px;
+  /* z-index: 2; */
+  width:600px;
+  height:300px;
   /* margin-top:-43%; */
-  position: relative; 
-  right: 0; 
-  bottom: 0;
-  z-index: 1;
+  /* position: relative;  */
+  /* right: 0;  */
+  /* bottom: 0; */
+  /* z-index: 1; */
   /* background-size: cover; */
   /* overflow: hidden; */
 }
